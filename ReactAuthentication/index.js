@@ -1,5 +1,4 @@
 const express = require('express');
-
 const app = express();
 // tell the app to look for static files in these directories
 app.use(express.static('./server/static/'));
