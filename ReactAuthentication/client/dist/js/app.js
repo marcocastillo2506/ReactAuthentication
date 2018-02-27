@@ -34893,7 +34893,7 @@
 	        _react2.default.createElement(
 	          _reactRouter.IndexLink,
 	          { to: '/' },
-	          'React App'
+	          'Fachada'
 	        )
 	      ),
 	      _Auth2.default.isUserAuthenticated() ? _react2.default.createElement(
@@ -35024,7 +35024,7 @@
 	  return _react2.default.createElement(
 	    _Card.Card,
 	    { className: 'container' },
-	    _react2.default.createElement(_Card.CardTitle, { title: 'React Application', subtitle: 'This is the home page.' })
+	    _react2.default.createElement(_Card.CardTitle, { title: 'Fachada', subtitle: 'This is the home page.' })
 	  );
 	};
 
@@ -40780,7 +40780,7 @@
 	    _Card.Card,
 	    { className: 'container' },
 	    _react2.default.createElement(_Card.CardTitle, {
-	      title: 'Dashboard',
+	      title: 'Dale una \'Fachada\' a tu hogar',
 	      subtitle: 'You should get access to this page only after authentication.'
 	    }),
 	    secretData && _react2.default.createElement(

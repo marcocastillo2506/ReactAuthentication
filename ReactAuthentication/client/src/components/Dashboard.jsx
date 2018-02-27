@@ -5,7 +5,7 @@ import { Card, CardTitle, CardText } from 'material-ui/Card';
 const Dashboard = ({ secretData }) => (
   <Card className="container">
     <CardTitle
-      title="Dashboard"
+      title="Dale una 'Fachada' a tu hogar"
       subtitle="You should get access to this page only after authentication."
     />
 
